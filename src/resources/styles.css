@@ -9,7 +9,7 @@ body {
 }
 
 .bck_black {
-  background: #e75916dc;
+  background: #d93d0048;
 }
 .bck_white {
   background: #ffffff;
@@ -123,13 +123,14 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
   display: flex;
-  background: #d93d00;
+  background: #d93d0048;
   padding: 10px 20px;
+  border-radius: 60px;
 }
 
 .countdown_wrapper .countdown_time {
   font-size: 70px;
-  border-right: 1px solid #f44336;
+  border-right: 1px solid#d93d0048;
   margin-right: 14px;
   padding-right: 49px;
 }
@@ -146,70 +147,81 @@ footer .footer_copyright {
 /*====================
         VENUE NFO
 ======================*/
+.main {
+  margin: 2% 1% 1% 1%;
+  flex-direction: row;
 
-.vn_wrapper {
-  display: flex;
-  padding: 170px 0px;
-}
-
-.vn_item {
-  width: 50%;
-  color: #ffffff;
-  text-align: center;
-}
-
-.vn_item .vn_outer {
-  width: 300px;
-  border: 2px solid #828282;
-  margin: auto;
-  padding: 5px;
-}
-
-.vn_item .vn_inner {
-  border: 2px solid #828282;
   position: relative;
-  padding: 0px 20px;
-  transition: all 500ms ease;
 }
 
-.vn_item .vn_inner:hover {
-  background: #3e3e3e;
-}
+.card {
+  width: 48.2%;
+  display: inline-block;
+  background-color: #fff;
 
-.vn_item .vn_icon_square {
-  width: 100px;
-  height: 100px;
+  border-radius: 5px;
+
+  margin: 2% 1% 1% 1%;
+}
+.card1 {
+  width: 48.2%;
+  display: inline-block;
+  background-color: #fff;
+
+  border-radius: 5px;
+  margin: 2% 1% 1% 1%;
   position: absolute;
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  top: -54px;
-  left: 100px;
+  left: 50%;
+  top: 0;
 }
 
-.vn_item .vn_icon {
-  width: 50px;
-  height: 50px;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  position: absolute;
-  top: -30px;
-  left: 124px;
+.image .imge {
+  width: 12%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
-.vn_item .vn_title {
-  font-size: 28px;
-  margin: 90px 0px 20px 0px;
-  border-bottom: 1px solid #5d5d5d;
-  padding-bottom: 10px;
+.title {
+  text-align: center;
+  padding: 10px;
 }
 
-.vn_item .vn_desc {
-  font-size: 30px;
-  font-weight: 300;
-  margin-bottom: 90px;
+.header1 {
+  font-size: 20px;
 }
 
+.des {
+  text-align: center;
+  padding: 25px;
+  margin: 10px;
+
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.des1 {
+  text-align: center;
+  padding: 33px;
+  margin: 18px;
+  height: 20px;
+}
+.button1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(165, 142, 80);
+  color: black;
+
+  border-radius: 80px;
+  transition: 1s ease-in;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.button1:hover {
+  background-color: rgba(89, 108, 219, 0.479);
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
 /*====================
         HIGHLIGHTS
 ======================*/

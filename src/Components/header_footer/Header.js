@@ -4,7 +4,6 @@ import Toolbar from "@material-ui/core/Toolbar";
 import MenuIcon from "@material-ui/icons/Menu";
 import IconButton from "@material-ui/core/IconButton";
 import SideDrawer from "./SideDrawer";
-import Rotate from "import Rotate from 'react-reveal/Rotate';";
 
 class Header extends Component {
   state = {
@@ -35,7 +34,7 @@ class Header extends Component {
       <AppBar
         position="fixed"
         style={{
-          backgroundColor: this.state.headerShow ? "#2f2d2dcb" : "transparent",
+          backgroundColor: this.state.headerShow ? "#d93d0048" : "transparent",
           boxShadow: "none",
           padding: "10px 0px",
           transition: ".3s ease-out",
