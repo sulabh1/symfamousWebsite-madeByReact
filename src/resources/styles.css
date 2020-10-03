@@ -18,8 +18,8 @@ body {
 .bck_white {
   background: #ffffff;
 }
-.bck_red {
-  background: #ff4800;
+.bck_red1 {
+  background: #eb8947b6;
 }
 .bck_yellow {
   background: #ffa800;
@@ -65,8 +65,8 @@ footer {
   padding: 5rem 0px;
   text-align: center;
   font-size: 6rem;
-  color: #ffffff;
-  background: red;
+  color: #00aeff;
+  background: #fc6500;
 }
 
 footer .footer_copyright {
