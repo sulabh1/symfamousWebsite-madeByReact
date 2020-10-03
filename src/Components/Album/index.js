@@ -1,10 +1,10 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 import ReactPlayer from "react-player";
 
 const Album = () => {
   return (
-    <Fade>
+    <Zoom duration={2000}>
       <div className="main">
         <div className="card">
           <div className="image">
@@ -28,7 +28,7 @@ const Album = () => {
           </div>
         </div>
       </div>
-    </Fade>
+    </Zoom>
   );
 };
 
